@@ -22,6 +22,7 @@ Page({
   requestCarouselListData() {
     // 调用默认环境数据库的引用
     const db = wx.cloud.database()
+    // tables数据库创建的集合名称
     const banner = db.collection('tables')
     //promise
     banner.get().then(res => {
