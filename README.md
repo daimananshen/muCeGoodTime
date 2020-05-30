@@ -1,5 +1,8 @@
 写在最前面：最近想自己开发一个小程序玩，目前打算先用云开发先做一个，后期打算自己买服务器，用nodejs做开发，将后台管理写出来。
 
+我的简书地址: https://www.jianshu.com/p/e34762241ad5
+我的git小程序代码地址:https://github.com/daimananshen/muCeGoodTime
+
 云开发 quickstart
 
 这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
