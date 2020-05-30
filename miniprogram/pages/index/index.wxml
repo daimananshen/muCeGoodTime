@@ -1,2 +1,14 @@
 <!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+<view class="container">
+	<view class="page-body">
+		<view class="page-section page-section-spacing swiper">
+			<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+				<block wx:for="{{item}}" wx:key="key">
+					<swiper-item>
+						<image class="carouselImg" src='{{item.image}}'></image>
+					</swiper-item>
+				</block>
+			</swiper>
+		</view>
+	</view>
+</view>

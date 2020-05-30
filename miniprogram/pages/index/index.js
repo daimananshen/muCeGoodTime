@@ -1,35 +1,37 @@
 // pages/index/index.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    indicatorDots: true,
+    autoplay: false,
+    interval: 2000,
+    duration: 500,
+    item: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    //加载轮播图
+    this.requestCarouselListData();
+  },
+  // 轮播图代码
+  requestCarouselListData() {
     // 调用默认环境数据库的引用
     const db = wx.cloud.database()
     const banner = db.collection('tables')
-    // banner.get({
-    //   success(res){
-    //     console.log(res)
-    //   },
-    //   fail(err){
-    //     console.log(err)
-    //   }
-    // })
     //promise
-    banner.get().then(res=>{
-      console.log(res)
-    })
-    .catch(err=>{
-      console.log(err)
-    })
+    banner.get().then(res => {
+        this.setData({
+          item: res.data
+        })
+      })
+      .catch(err => {
+        console.log(err)
+      })
   },
 
   /**
