@@ -1,4 +1,6 @@
-# 云开发 quickstart
+写在最前面：最近想自己开发一个小程序玩，目前打算先用云开发先做一个，后期打算自己买服务器，用nodejs做开发，将后台管理写出来。
+
+云开发 quickstart
 
 这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
 
@@ -11,3 +13,23 @@
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
 # muCeGoodTime
+
+项目结构
+
+```
+|
+|--pages                             // 源码目录
+|   |-- index                        // 首页
+|         |-- index.js               // 页面逻辑
+|         |-- index.json             // 页面配置
+|         |-- index.wxml             // 页面结构
+|         |-- index.wxss             // 页面样式表
+|
+|-- app.js                           // 小程序逻辑
+|-- app.json                         // 小程序公共配置
+|-- app.wxss                         // 小程序公共样式表
+|-- .gitignore                       // 忽略的文件
+|-- package.config.json              // 项目及工具的依赖配置文件
+|-- README.md                        // 说明
+
+```                                                                                                             
