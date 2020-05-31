@@ -8,7 +8,7 @@ Page({
     autoplay: false,
     interval: 2000,
     duration: 500,
-    item: []
+    item: [],
   },
 
   /**
@@ -34,7 +34,9 @@ Page({
         console.log(err)
       })
   },
-
+  // 搜索
+   search() {
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
