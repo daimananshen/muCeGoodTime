@@ -21,7 +21,8 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"useCompilerModule": true
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"appid": "wxbb472fd967192801",
 	"projectname": "%E6%B2%90%E6%B5%8B%E5%A5%BD%E6%97%B6%E5%85%89",
