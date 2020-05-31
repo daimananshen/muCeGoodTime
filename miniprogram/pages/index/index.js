@@ -9,6 +9,7 @@ Page({
     interval: 2000,
     duration: 500,
     item: [],
+    good: [],
   },
 
   /**
@@ -17,6 +18,7 @@ Page({
   onLoad: function (options) {
     //加载轮播图
     this.requestCarouselListData();
+    this.news();
   },
   // 轮播图代码
   requestCarouselListData() {
@@ -34,9 +36,25 @@ Page({
         console.log(err)
       })
   },
-  // 搜索
-   search() {
+  // 新品推荐
+  news() {
+    // 调用默认环境数据库的引用
+    const db = wx.cloud.database()
+    // tables数据库创建的集合名称
+    const goods = db.collection('news')
+    //promise
+    goods.get().then(res => {
+        console.log(res)
+        this.setData({
+          good: res.data
+        })
+      })
+      .catch(err => {
+        console.log(err)
+      })
   },
+  // 搜索
+  search() {},
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

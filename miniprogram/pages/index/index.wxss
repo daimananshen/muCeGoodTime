@@ -64,6 +64,20 @@ page {
   white-space: nowrap;
 }
 
+/* 新品推荐 */
+.recommended-index-list{
+  background-color: #fff;
+  height: 100%;
+}
+.title-header{text-align: center;font-weight: 700;font-size: 1.2rem;}
+
+.invite-modle{ width: 100%; height: 240rpx; background-color:#fff; box-shadow:0,0,0 rgba(170,170,170, .38); 
+  padding: 48rpx 0 0 28rpx; box-sizing: border-box; position: fixed; bottom: 0; left: 0;}
+ .poster-mod{ width: 100%; height: 150rpx; overflow: hidden; background: #fff;  white-space: nowrap;}
+ .poster-item{ height: 144rpx; border-radius: 6rpx;  border:1.5px solid transparent;   display: inline-block; 
+ overflow: hidden; margin-right: 35rpx;}
+ .poster-item.cur{ border-color: #ff614a;}
+ .poster-item .img{ width: 144rpx; height: 144rpx;}
 
 
 
