@@ -1,12 +1,14 @@
-写在最前面：最近想自己开发一个小程序玩，目前打算先用云开发先做一个商城，后期再改成用阿里云服务，基于Node.js打造后台接口，做一个后台管理。
+写在最前面：最近想自己开发一个小程序玩，先用云开发先做一个商城。后期改成使用阿里云服务，基于Node.js打造后台接口，做个后台管理系统。
 
-重点：如果哪天我不更新代码了，就代表我去写uni-app项目去了，那是另外一个近期准备上架的项目，使用的uni-app框架跟Java技术。
+重点：如果哪天我不更新代码了，就代表我去写个人产品了，那是另外一个近期准备上架的产品，使用的uni-app框架跟Java技术。
 
 我的简书地址: https://www.jianshu.com/u/6f7fce0d2a50
 
 我的git小程序代码地址:https://github.com/daimananshen/muCeGoodTime
 
 我的码云地址：https://gitee.com/daimananshen/dashboard/projects
+
+我的CSDN地址：https://blog.csdn.net/weixin_39428080
 
 这个项目会一直持续更新直到发布
 
