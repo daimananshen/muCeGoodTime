@@ -41,7 +41,7 @@ Page({
     // 调用默认环境数据库的引用
     const db = wx.cloud.database()
     // tables数据库创建的集合名称
-    const goods = db.collection('news')
+    const goods = db.collection('newGoods')
     //promise
     goods.get().then(res => {
         console.log(res)
