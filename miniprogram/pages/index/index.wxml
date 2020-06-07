@@ -39,4 +39,16 @@
 			</scroll-view>
 		</view>
 	</view>
+	<!-- 猜您喜欢 后期改成上拉加载-->
+	<view>
+		<view class="like"><view class="lineLeft"></view>猜您喜欢<view class="lineRight"></view></view>
+		<view class="likeGoods">
+			<view class="like-item" wx:for="{{good}}" wx:key="key" wx:for-index="key" wx:for-item="v">
+				<image class='img' src='{{v.image}}'>
+				</image>
+				<rich-text class="likeName">{{v.name}}</rich-text>
+				<rich-text class="likeName price">￥{{v.price}}</rich-text>
+			</view>
+		</view>
+	</view>
 </view>

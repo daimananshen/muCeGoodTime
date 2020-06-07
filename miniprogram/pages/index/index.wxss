@@ -127,11 +127,69 @@ page {
   text-align: center;
 }
 
-.price{color: #f2270c;}
+.price {
+  color: #f2270c;
+}
 
 /* 隐藏滚动条 */
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
   color: transparent;
+}
+
+/* 猜您喜欢 */
+.like {
+  text-align: center;
+  font-size: 30rpx;
+  margin: 60rpx 20rpx;
+  flex-basis: 40%;
+  line-height: 1rpx;
+  color: #959594;
+}
+
+.lineLeft {
+  border-top: 1px solid #ebebec;
+  width: 40%;
+  float: left;
+}
+
+.lineRight {
+  border-top: 1px solid #ebebec;
+  float: right;
+  width: 40%;
+}
+
+/* 图片两栏显示  flex布局*/
+.likeGoods {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40rpx;
+}
+
+.like-item {
+  width: 49%;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+.like-item .img {
+  width: 96%;
+  height: 450rpx;
+  margin-right: 4%;
+}
+
+.likeName {
+  width: 96%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: -webkit-box;
+  white-space: normal !important;
+  text-align: center;
 }

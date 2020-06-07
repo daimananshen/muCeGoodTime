@@ -10,7 +10,7 @@
 
 我的CSDN地址：https://blog.csdn.net/weixin_39428080
 
-这个项目会一直持续更新直到发布
+这个项目会一直持续更新直到完成
 
 云开发 quickstart
 
@@ -47,5 +47,7 @@
 |-- package.config.json              // 项目及工具的依赖配置文件
 |-- README.md                        // 说明
 
-```                                                                                                             
+```           
+
+设计图
 ![Image text](https://github.com/daimananshen/muCeGoodTime/blob/master/miniprogram/images/home.png)
