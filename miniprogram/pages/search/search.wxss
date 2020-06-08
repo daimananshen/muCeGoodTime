@@ -1,1 +1,49 @@
 /* pages/search/search.wxss */
+.all{background: #dcdcdc}
+.under_line{
+  width: 100%;
+  border-top: 1rpx solid #efefef;
+}
+.scrollY {
+  width: 200rpx;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-right: 1rpx solid #efefef;
+}
+ 
+.left {
+  border-top: 1rpx solid #efefef;
+  border-right: 1rpx solid #efefef;
+}
+ 
+.text-style {
+  width: 200rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+  text-align: center;
+  font-size: 34rpx;
+  font-family: PingFangSC-Semibold;
+  color: rgba(51, 51, 51, 1);
+}
+ 
+.active1 {
+  color: #f2270c;
+}
+ 
+.active {
+  display: block;
+  width: 5rpx;
+  height: 60rpx;
+  background: #f2270c;
+  position: relative;
+  left: 0rpx;
+  top: -100rpx;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.activeStyle{background: #fff;}
